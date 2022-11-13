@@ -1,18 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int driverAge = 19;
+        int driverAge = 10;
 
         if (driverAge >= 18)
         {
             System.out.println("Поздравляем вы совершеннолетний"); }
 
-            if (driverAge < 18)
-            {
-                System.out.println("К сожалению вы еще не достигли совершеннолетия и вам придется немного подождать");
-            }
+            else {
+            System.out.println("К сожалению вы еще не достигли совершеннолетия и вам придется немного подождать"); }
 
 
-            int educationAge = 50;
+            int educationAge = 49;
 
             if (educationAge >= 7)
                 if (educationAge < 18) {
@@ -22,7 +20,7 @@ public class Main {
             if (educationAge < 24){
                 System.out.println("Студент");
             }
-            if (educationAge >= 24) {
+            else {
                 System.out.println("Уже работает");
             }
 
@@ -30,7 +28,7 @@ public class Main {
             int totalSpace = 102;
             int seatPlace = 60;
             int standPlace = totalSpace - seatPlace;
-            int humans = 101;
+            int humans = 102;
 
             if (humans <= seatPlace) {
                 System.out.println("Сидячих мест осталось " + (seatPlace - humans));
@@ -46,7 +44,7 @@ public class Main {
                 if (humans < totalSpace) {
                 System.out.println("Стоячих мест занаято " + (humans - seatPlace) + " из 42");
             }
-            if (humans >= totalSpace) {
+            else {
                 System.out.println("Стоячих мест не осталось");
                 System.out.println("Вагон заполнен");
             }
